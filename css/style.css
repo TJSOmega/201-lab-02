@@ -3,8 +3,30 @@ body {
   color: brown; 
 }
 
+
+h1 {
+  color: orangered;
+  background-color: palegoldenrod;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+}
+
 p {
-  color: burlywood;
+  color: orangered;
   padding: 10px;
-  
+padding-right: 25%;
+background-color: palegoldenrod;
+vertical-align: middle;
+text-align: center;
+padding-left: 25%;
+}
+
+div {
+  padding:350px;
+}
+
+footer {
+  background-color: turquoise;
+  color: blue;
 }
