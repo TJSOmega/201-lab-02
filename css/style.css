@@ -7,7 +7,14 @@ body {
 
 h1 {
   color: orangered;
-  background-color: palegoldenrod;
+  background-color: goldenrod;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+}
+h2 {
+  color: orangered;
+  background-color: goldenrod;
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
