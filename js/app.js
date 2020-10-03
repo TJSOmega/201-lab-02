@@ -14,8 +14,8 @@ if (que1 === 'yes' || que1 === 'y') {
   alert('Maaaannn got the first question wrong? Not looking good for you so far!')
   console.log()
 }
-else if (que1 === 'no' || que1 === 'n'){
-   // console.log('Got the first question right, you\'re off to a good start!')
+else if (que1 === 'no' || que1 === 'n') {
+  // console.log('Got the first question right, you\'re off to a good start!')
   alert('Got the first question right, you\'re off to a good start!')
 }
 else {
@@ -32,7 +32,7 @@ if (que2 === 'yes' || que2 === 'y') {
   alert('Good job you! Next Question!')
 }
 else if (que1 === 'no' || que1 === 'n') {
-   // console.log('You are so wrong!')
+  // console.log('You are so wrong!')
   alert('You are so wrong!')
 }
 else {
@@ -83,7 +83,7 @@ if (que5 === 'yes' || que5 === 'y') {
   alert('Thought I\'d give you a free one! :)')
 }
 else if (que1 === 'no' || que1 === 'n') {
-   // console.log('If you got this wrong we can\'t be friends...')
+  // console.log('If you got this wrong we can\'t be friends...')
   alert('If you got this wrong we can\'t be friends...')
 
 }
@@ -97,31 +97,30 @@ else {
 function Numbergame() {
 
   var tries = 0
-  var winstat = false
-var rannum1 = (Math.floor)(Math.random() * 10 + 1)
-console.log(rannum1)
+  var rannum1 = (Math.floor)(Math.random() * 10 + 1)
+  // console.log(rannum1)
+  var guess1
 
-    var guess1
-  while (tries <= 3 && guess1 !=rannum1) {
+  while (tries <= 3 && guess1 != rannum1) {
     guess1 = prompt('Please guess a number 1-10')
 
     if (guess1 <= rannum1 && guess1 != rannum1) {
       alert('Your guess was to low!')
       tries = (tries + 1)
-      console.log('tries amount ' + tries)
+      // console.log('tries amount ' + tries)
     }
-    else if (guess1 >= rannum1 && guess1 !=rannum1) {
+    else if (guess1 >= rannum1 && guess1 != rannum1) {
       alert('Your guess was to high!')
       tries = (tries + 1)
-      console.log('tries amount ' + tries)
+      // console.log('tries amount ' + tries)
     }
-    }   
-    if (rannum1 == guess1) {
-      winstat = true
-      alert('You Win!!!')
-    }
-    else {
-      alert ('You Lose... Press the button to try again.')
-    }
-    }
-    
+  }
+
+  if (rannum1 == guess1) {
+    alert('You Win!!!')
+  }
+  else {
+    alert('You Lose... Press the button to try again.')
+  }
+}
+
