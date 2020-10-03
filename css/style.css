@@ -1,6 +1,7 @@
 body {
   background-color: tan ;
-  color: brown; 
+  color: brown;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 
@@ -20,13 +21,39 @@ background-color: palegoldenrod;
 vertical-align: middle;
 text-align: center;
 padding-left: 25%;
+border-radius: 30px;
 }
 
 div {
+padding:15px
+}
+
+#Endpage {
   padding:350px;
 }
 
 footer {
   background-color: turquoise;
   color: blue;
+}
+
+h3 {
+  background-color: peru;
+  float: right;
+  padding-right: 50px;
+}
+#list {
+  background-color: peru;
+  padding: 30px;
+}
+ol {
+  background-color: peru;
+  float: right;
+  padding-right: 50px;
+}
+
+button {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
 }
