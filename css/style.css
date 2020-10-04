@@ -31,12 +31,12 @@ padding-left: 25%;
 border-radius: 30px;
 }
 
-div {
+li {
 padding:15px
 }
 
 #Endpage {
-  padding:350px;
+  padding:300px;
 }
 
 footer {
@@ -47,16 +47,20 @@ footer {
 h3 {
   background-color: peru;
   float: right;
-  padding-right: 50px;
 }
+
 #list {
-  background-color: peru;
-  padding: 30px;
+  margin: 30px;
 }
+
 ol {
   background-color: peru;
   float: right;
-  padding-right: 50px;
+  padding-right: 10px;
+}
+
+div {
+  padding: 15px;
 }
 
 button {
