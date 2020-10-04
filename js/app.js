@@ -113,7 +113,7 @@ var rannum1 = (Math.floor)(Math.random() * 10 + 1)
 var guess1
 
 while (tries1 <= 3 && guess1 != rannum1) {
-  guess1 = prompt('Alright ' + name1 + ' guess a number 1-10')
+  guess1 = parseInt(prompt('Alright ' + name1 + ' guess a number 1-10'));
 
   if (guess1 < rannum1) {
     alert('Your guess was to low!');
@@ -130,7 +130,7 @@ while (tries1 <= 3 && guess1 != rannum1) {
 
 console.log(guess1)
 
-if (rannum1 == guess1) {
+if (rannum1 === guess1) {
   alert('You Win!!!')
   pointcounter++;
 }
