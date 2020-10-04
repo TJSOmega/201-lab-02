@@ -100,7 +100,7 @@ else {
 }
 
 // Template literal here, allows for you to use back ticks to create a string with auto concatenation
-alert (`Good job ${name1} time to play game #2!`)
+alert(`Good job ${name1} time to play game #2!`)
 
 
 // Random Number generator game 1-10, function and called by button on HTML page.
@@ -157,7 +157,7 @@ while (attemptsRemaining > 0 && !answeredCorrectly) {
     guessAnswer = prompt('Sorry that wasn\'t a correct answer please try again!');
   }
   if (attemptsRemaining === 0 && !answeredCorrectly) {
-    alert ('Sorry you lose!')
+    alert('Sorry you lose!')
   }
 }
 
