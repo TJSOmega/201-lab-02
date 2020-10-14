@@ -1,34 +1,39 @@
 body {
-  background-color: tan ;
-  color: brown;
+  background-color: #e6dbd3 ;
+  color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 
 h1 {
-  color: orangered;
-  background-color: goldenrod;
+  color: white;
+  background-color: #412f24;
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
+  border-radius: 25px;
 }
 h2 {
-  color: orangered;
-  background-color: goldenrod;
+  color: white;
+  background-color: #412f24;
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
+  border-radius: 25px;
+
 }
 
 p {
-  color: orangered;
+  color: black;
   padding: 10px;
 padding-right: 25%;
-background-color: palegoldenrod;
+background-color: pale#412f24;
 vertical-align: middle;
 text-align: center;
 padding-left: 25%;
 border-radius: 30px;
+border-radius: 25px;
+
 }
 
 li {
@@ -45,8 +50,10 @@ footer {
 }
 
 h3 {
-  background-color: peru;
+  background-color: #614737;
   float: right;
+  border-radius: 15px;
+
 }
 
 #list {
@@ -54,17 +61,14 @@ h3 {
 }
 
 ol {
-  background-color: peru;
+  background-color: #614737;
   float: right;
   padding-right: 10px;
+  border-radius: 25px;
+
 }
 
 div {
   padding: 15px;
 }
 
-button {
-    text-align: center;
-    padding-left: 30%;
-    padding-right: 30%;
-}
